@@ -1,0 +1,31 @@
+{
+  "name": "jade-bundle",
+  "version": "0.0.0",
+  "description": "Jade Templates Prerenderer",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "*",
+    "jade": "*",
+    "underscore": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inca/jade-bundle"
+  },
+  "keywords": [
+    "jade",
+    "templates",
+    "prerender",
+    "bundle",
+    "static",
+    "html",
+    "templates",
+    "angularjs"
+  ],
+  "author": "Boris Okunskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inca/jade-bundle/issues"
+  },
+  "homepage": "https://github.com/inca/jade-bundle"
+}
