@@ -1,6 +1,6 @@
 {
   "name": "jade-bundle",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Jade Templates Prerenderer",
   "main": "index.js",
   "dependencies": {
