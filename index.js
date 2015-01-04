@@ -41,9 +41,10 @@ Bundle.prototype.compile = function(pattern, locals) {
     , data = _.extend({}, bundle.options.locals, locals);
   files.forEach(function(file) {
     var filename = file.replace(/\.jade$/, '');
-    var jadeSource = fs.readFileSync(path.join(cwd, file), 'utf-8');
+    var sourceFile = path.join(cwd, file);
+    var jadeSource = fs.readFileSync(sourceFile, 'utf-8');
     var fn = jade.compile(jadeSource, {
-      filename: file,
+      filename: sourceFile,
       basedir: bundle.basedir,
       doctype: 'html'
     });
